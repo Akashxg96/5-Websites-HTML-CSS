@@ -1,0 +1,29 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.top-bar img {
+    max-height: 40px;
+}
+
+.top-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar input[type="text"] {
+    margin-right: 10px;
+}
+
+.top-bar p {
+    margin-right: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}

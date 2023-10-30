@@ -1,0 +1,75 @@
+.coupon {
+    text-align: center;
+    background-color: rgb(38, 38, 149);
+    color: white;
+  }
+
+  .nav-menu {
+    background-color: rgb(13, 13, 26);
+    color: #ddd;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ul li {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .search-container {
+    flex-grow: 5;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .content-category {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .content-category li {
+    text-align: left;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .content-category li.selected {
+    color: rgb(77, 11, 11); /* Change the text color for the selected item */
+    font-weight: bold; /* Apply bold font to the selected item */
+    text-decoration: underline;
+  }
+
+  /* CSS for the grid framework */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .grid-item img {
+    width: 100%;
+    border-radius: 5px; /* Adding border radius for the images */
+    margin-bottom: 10px; /* Adding margin between the image and text */
+  }
+
+  .grid-item h3 {
+    margin: 10px 0; /* Adding margin for the course title */
+  }
+
+  .rating-stars {
+    margin-bottom: 10px; /* Adding margin between the rating stars and price */
+  }

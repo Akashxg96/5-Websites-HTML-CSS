@@ -1,0 +1,62 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.top-bar img {
+    max-height: 40px;
+}
+
+.top-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar input[type="text"] {
+    margin-right: 10px;
+}
+
+.top-bar p {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.left-column ul {
+    width: 5%;
+    padding: 10px;
+    font-size: 8px;  
+    text-align: left;
+}
+
+.right-column ul {
+    width: 5%;
+    padding: 10px;
+    font-size: 8px;
+    text-align: right; 
+}
+.middle-column img {
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    float: left; /* or right, depending on the desired layout */
+    margin: 20px auto; /* Set left and right margins to auto and adjust the top and bottom margins as needed */
+    display: block; /* Set the image as a block element */
+    padding: 2%;
+    float: left; /* or right, depending on the desired layout */
+  margin: 0 20px 20px 0; /* Adjust the margin values as needed */
+}
+  }
+  
+.left-column, .right-column {
+    background-color: #f2f2f2;
+}
+.middle-column {
+    width: 70%;
+    font-size: 10px; 
+    background-color: #e6e6e6;
+}
